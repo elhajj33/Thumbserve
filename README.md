@@ -12,7 +12,6 @@ Important note: the installer will create an 8gb drive make sure you have at lea
 You will also need a data capable USB cable.  Many USB cables act only as charger cables; such cables will not work.  You will also need to modify the cable to prevent the rpi from backfeeding the printer LCD screen  it's a pretty simple mod of putting electrical tape on the power lead.  See below for the how it should look like:
 <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/modifiedUSB.jpeg?raw=true">
 
-
 ##
 <div> INSTALLATION </div>
 
@@ -22,7 +21,7 @@ Download the raspberry pi imager from https://www.raspberrypi.com/software/ you 
 <DIV> Step 2: Setup RaspberryPi Wifi and Password </DIV>
 a. Launch the imager and choose Raspberry PI OS LITE (32-BIT) for the operating system
 <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/os.png?raw=true">  
-b. Select your SD card <BR>
+b. Select your SD card 
 c. VERY IMPORTANT: Press Shift-CMD X (mac) or Shift-CTRL X (windows).  Be sure to add your wifi network password and your raspberry pi password.  This will allow you to login to your pi using SSH.
 <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/settings.png?raw=true">
 d.  Install the SD card in the rpi and boot it up
@@ -31,7 +30,7 @@ d.  Install the SD card in the rpi and boot it up
 a. SSH into the rpi using Putty or another utility.  For this you'll need to know the IP of your rPi.  You should be able to find this in your router. Everyone's network is different, so specific instructions can't be provided here. <br>
 b. Once you are logged in, you will need to run the thumbserve.sh script. The image below shows the installation:
 <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/install.png?raw=true">
-c.  You'll need to execute these commands:
+c.  You'll need to execute these commands: <br>
   
   touch thumbserve.sh <br>
   sudo chmod 755 thumbserve.sh <br>
