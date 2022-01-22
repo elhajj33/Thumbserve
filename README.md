@@ -21,8 +21,7 @@ Download the raspberry pi imager from https://www.raspberrypi.com/software/ you 
 <DIV> Step 2: Setup RaspberryPi Wifi and Password </DIV>
 a. Launch the imager and choose Raspberry PI OS LITE (32-BIT) for the operating system <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/os.png?raw=true">  
 b. Select your SD card 
-c. VERY IMPORTANT: Press Shift-CMD X (mac) or Shift-CTRL X (windows).  Be sure to add your wifi network password and your raspberry pi password.  This will allow you to login to your pi using SSH.
-<img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/settings.png?raw=true">
+c. VERY IMPORTANT: Press Shift-CMD X (mac) or Shift-CTRL X (windows).  Be sure to add your wifi network password and your raspberry pi password.  This will allow you to login to your pi using SSH. <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/settings.png?raw=true">
 d.  Install the SD card in the rpi and boot it up
 <BR><BR>
 <DIV> Step 3: Software Installation </DIV>
@@ -40,10 +39,3 @@ c.  You'll need to execute these commands: <br>
   Next you'll need to execute thumbserve.sh.  Run it once and follow the instructions.  Run the script again after the first reboot and wait.  It will take some time to set everything up, but once complete, you can plug the rpi into your printer / media streamer etc.  You whould also see the share on your network to drop the files into.
    <br> <br>
  Feel free to ask any questions if you have issues
-  
-  
-  
-
-
-
-
