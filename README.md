@@ -16,15 +16,23 @@ You will also need a data capable USB cable.  Many USB cables act only as charge
 ##
 <div> INSTALLATION </div>
 
-<DIV> Step 1 </DIV>
+<DIV> Step 1: Setup the RaspberryPi Image </DIV>
 Download the raspberry pi imager from https://www.raspberrypi.com/software/ you will need this to install the operating System
 <BR><BR>
-<DIV> Step 2 </DIV>
+<DIV> Step 2: Setup RaspberryPi Wifi and Password </DIV>
 a. Launch the imager and choose Raspberry PI OS LITE (32-BIT) for the operating system
 <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/os.png?raw=true">  
 b. Select your SD card <BR>
 c. VERY IMPORTANT: Press Shift-CMD X (mac) or Shift-CTRL X (windows).  Be sure to add your wifi network password and your raspberry pi password.  This will allow you to login to your pi using SSH.
 <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/settings.png?raw=true">
+d.  Install the SD card in the rpi and boot it up
+<BR><BR>
+<DIV> Step 3: Software Installation </DIV>
+a. SSH into the rpi using Putty or another utility.  For this you'll need to know the IP of your rPi.  You shoul be able to find this in your router. Everyone's network is different, so specific instructions can't be provided here.
+b. Once you are logged in, you will need to run the thumbserve.sh script.  Below I show how I did this.  Keep in mind, you'll need to run the script twice: once to setup the rpi hostname and password, and then to install the usb and network share.  The image below shows the installation:
+<img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/install.png?raw=true">
+  
+
 
 
 
