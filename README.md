@@ -9,7 +9,8 @@ This project was developed and tested using a RaspberryPi Zero 2 W. You can pick
 <br><br>
 Important note: the installer will create an 8gb drive make sure you have at least a 16gb SD card
 <br><br>
-You will also need a data capable USB cable.  Many USB cables act only as charger cables; such cables will not work.
+You will also need a data capable USB cable.  Many USB cables act only as charger cables; such cables will not work.  You will also need to modify the cable to prevent the rpi from backfeeding the printer LCD screen  it's a pretty simple mod of putting electrical tape on the power lead.  See below for the how it should look like:
+
 
 ##
 <div> INSTALLATION </div>
