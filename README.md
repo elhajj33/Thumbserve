@@ -9,11 +9,18 @@ This project was developed and tested using a RaspberryPi Zero 2 W. You can pick
 <br><br>
 Important note: the installer will create an 8gb drive make sure you have at least a 16gb SD card
 
+You will also need a data capable USB cable.  Many USB cables act only as charger cables; such cables will not work.
+
 ##
 <div> INSTALLATION </div>
 
 <DIV> Step 1 </DIV>
-Download the raspberry pi imager from https://www.raspberrypi.com/software/ you will need this to install the os
+Download the raspberry pi imager from https://www.raspberrypi.com/software/ you will need this to install the operating System
+
+<DIV> Step 2 </DIV>
+a. Launch the imager and choose Raspberry PI OS LITE (32-BIT) for the operating system
+b. Select your SD card
+c. VERY IMPORTANT: Press Shift-CMD X (mac) or Shift-CTRL X (windows) 
 
 
 
