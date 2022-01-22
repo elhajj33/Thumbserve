@@ -19,8 +19,7 @@ You will also need a data capable USB cable.  Many USB cables act only as charge
 Download the raspberry pi imager from https://www.raspberrypi.com/software/ you will need this to install the operating System
 <BR><BR>
 <DIV> Step 2: Setup RaspberryPi Wifi and Password </DIV>
-a. Launch the imager and choose Raspberry PI OS LITE (32-BIT) for the operating system
-<img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/os.png?raw=true">  
+a. Launch the imager and choose Raspberry PI OS LITE (32-BIT) for the operating system <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/os.png?raw=true">  
 b. Select your SD card 
 c. VERY IMPORTANT: Press Shift-CMD X (mac) or Shift-CTRL X (windows).  Be sure to add your wifi network password and your raspberry pi password.  This will allow you to login to your pi using SSH.
 <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/settings.png?raw=true">
