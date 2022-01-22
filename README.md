@@ -28,9 +28,22 @@ c. VERY IMPORTANT: Press Shift-CMD X (mac) or Shift-CTRL X (windows).  Be sure t
 d.  Install the SD card in the rpi and boot it up
 <BR><BR>
 <DIV> Step 3: Software Installation </DIV>
-a. SSH into the rpi using Putty or another utility.  For this you'll need to know the IP of your rPi.  You shoul be able to find this in your router. Everyone's network is different, so specific instructions can't be provided here.
-b. Once you are logged in, you will need to run the thumbserve.sh script.  Below I show how I did this.  Keep in mind, you'll need to run the script twice: once to setup the rpi hostname and password, and then to install the usb and network share.  The image below shows the installation:
+a. SSH into the rpi using Putty or another utility.  For this you'll need to know the IP of your rPi.  You should be able to find this in your router. Everyone's network is different, so specific instructions can't be provided here. <br>
+b. Once you are logged in, you will need to run the thumbserve.sh script. The image below shows the installation:
 <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/install.png?raw=true">
+c.  You'll need to execute these commands:
+  
+  touch thumbserve.sh <br>
+  sudo chmod 755 thumbserve.sh <br>
+  nano thumbserve.sh <br>
+  <br>
+  Once you have nano open, just copy and paste the thumbserve.sh script into it and save the file
+  <br>
+  Next you'll need to execute thumbserve.sh.  Run it once and follow the instructions.  Run the script again after the first reboot and wait.  It will take some time to set everything up, but once complete, you can plug the rpi into your printer / media streamer etc.  You whould also see the share on your network to drop the files into.
+   <br> <br>
+ Feel free to ask any questions if you have issues
+  
+  
   
 
 
