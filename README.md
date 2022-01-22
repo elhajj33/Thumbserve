@@ -1,7 +1,7 @@
 # Thumbserve
 RaspberryPi File share that will act as a thumb drive.  Useful for sending files to 3D printers and media devices
 
-The intention of this project was to make a fat32 drive available for Resin 3D Printers.  
+The intention of this project was to make a fat32 drive available for Resin 3D Printers able to only read fat 32 USB drives. 
 
 ## 
 <div> HARDWARE </div>
