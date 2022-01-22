@@ -5,27 +5,27 @@ The intention of this project was to make a fat32 drive available for Resin 3D P
 
 ## 
 <div> HARDWARE </div>
-This project was developed and tested using a RaspberryPi Zero 2 W. You can pick one fairly cheaply on amazon (see <a href="https://amzn.to/3nKTyhV"> link </a> if you don't already have a raspberrypi)
+This project was developed and tested using a RaspberryPi Zero 2 W. You can pick one fairly cheaply on amazon (see <a href="https://amzn.to/3nKTyhV"> link </a> if you don't already have a raspberrypi you can dedicate to this)
 <br><br>
-Important note: the installer will create an 8gb drive make sure you have at least a 16gb SD card
+Important note: the installer will create an 8gb USB drive make sure you have at least a 16gb SD card
 <br><br>
-You will also need a data capable USB cable.  Many USB cables act only as charger cables; such cables will not work.  You will also need to modify the cable to prevent the rpi from backfeeding the printer LCD screen  it's a pretty simple mod of putting electrical tape on the power lead.  See below for the how it should look like:
+You will also need a data capable USB cable.  Many USB cables act only as charging cables and will not work to read/write data.  You will also need to modify the cable to prevent the rpi from backfeeding voltage to the printer LCD screen.  This is a well known issue with using the rpi and luckily it's a pretty simple mod of putting electrical tape on the usb cable power lead.  See below for the how the connecter should look like when you after the mod:
 <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/modifiedUSB.jpeg?raw=true">
 
 ##
 <div> INSTALLATION </div>
 
 <DIV> Step 1: Setup the RaspberryPi Image </DIV>
-Download the raspberry pi imager from https://www.raspberrypi.com/software/ you will need this to install the operating System
+Download the raspberry pi imager from https://www.raspberrypi.com/software/ you will need this to install the operating system
 <BR><BR>
 <DIV> Step 2: Setup RaspberryPi Wifi and Password </DIV>
 a. Launch the imager and choose Raspberry PI OS LITE (32-BIT) for the operating system <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/os.png?raw=true">  
 b. Select your SD card 
-c. VERY IMPORTANT: Press Shift-CMD X (mac) or Shift-CTRL X (windows).  Be sure to add your wifi network password and your raspberry pi password.  This will allow you to login to your pi using SSH. <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/settings.png?raw=true">
+c. VERY IMPORTANT: Press Shift-CMD X (mac) or Shift-CTRL X (windows).  Be sure to add your wifi network password and your raspberry pi password.  This will allow you to login to your pi using SSH after the os is installed. <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/settings.png?raw=true">
 d.  Install the SD card in the rpi and boot it up
 <BR><BR>
 <DIV> Step 3: Software Installation </DIV>
-a. SSH into the rpi using Putty or another utility.  For this you'll need to know the IP of your rPi.  You should be able to find this in your router. Everyone's network is different, so specific instructions can't be provided here. <br>
+a. SSH into the rpi using Putty or another utility. the command ssh pi@raspberrypi.local should be all you need to execute from a terminal window <br>
 b. Once you are logged in, you will need to run the thumbserve.sh script. The image below shows the installation:
 <img src= "https://github.com/elhajj33/Thumbserve/blob/main/images/install.png?raw=true">
 c.  You'll need to execute these commands: <br>
@@ -38,4 +38,4 @@ c.  You'll need to execute these commands: <br>
   <br>
   Next you'll need to execute thumbserve.sh.  Run it once and follow the instructions.  Run the script again after the first reboot and wait.  It will take some time to set everything up, but once complete, you can plug the rpi into your printer / media streamer etc.  You whould also see the share on your network to drop the files into.
    <br> <br>
- Feel free to ask any questions if you have issues
+ Feel free to ask any questions if you have issues.
