@@ -12,3 +12,8 @@ Important note: the installer will create an 8gb drive make sure you have at lea
 ##
 <div> INSTALLATION </div>
 
+<DIV> Step 1 </DIV>
+Download the raspberry pi imager from https://www.raspberrypi.com/software/ you will need this to install the os
+
+
+
