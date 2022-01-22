@@ -16,9 +16,8 @@ You will also need a data capable USB cable.  Many USB cables act only as charge
 
 <DIV> Step 1 </DIV>
 Download the raspberry pi imager from https://www.raspberrypi.com/software/ you will need this to install the operating System
-
-<DIV> Step 2 </DIV>
 <BR>
+<DIV> Step 2 </DIV>
 a. Launch the imager and choose Raspberry PI OS LITE (32-BIT) for the operating system <BR>
 b. Select your SD card <BR>
 c. VERY IMPORTANT: Press Shift-CMD X (mac) or Shift-CTRL X (windows) <BR>
